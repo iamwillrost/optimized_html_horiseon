@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* changed .header div to .header nav */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -75,6 +76,7 @@ p {
     margin-left: 20px;
 }
 
+/* consolidated the selectors and css code for aside articles which utilize the same formatting */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +104,7 @@ p {
     max-width: 150px;
 }
 
+/* consolidated the selectors and css code for section articles which utilize the same formatting */
 .section_article {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +123,7 @@ p {
     font-size: 36px;
 }
 
+/* changed the div element to a footer element, updated the selector to maintain content formatting */
 .footer {
     padding: 30px;
     clear: both;
